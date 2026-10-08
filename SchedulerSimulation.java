@@ -150,6 +150,8 @@ public int getPriority() {
 }
 
 public class SchedulerSimulation {
+    // FEATURE 2: Counter to track the total number of context switches
+private static int contextSwitchCount = 0;
     public static void main(String[] args) {
         // ⚠️ IMPORTANT: Put your student ID here to seed the random number generator
         // This makes your output unique to you - DO NOT forget to change this!
@@ -243,6 +245,8 @@ int priority = 1 + random.nextInt(10); // Random number between 1 and 10
             System.out.println(Colors.BOLD + Colors.MAGENTA + "└" + "─".repeat(79) + Colors.RESET + "\n");
             
             // Start the thread, which will run the process for one time quantum
+            // FEATURE 2: Increment context switch counter when a process starts running
+contextSwitchCount++;
             currentThread.start();
             
             try {
@@ -282,7 +286,8 @@ int priority = 1 + random.nextInt(10); // Random number between 1 and 10
         System.out.println(Colors.BOLD + Colors.BRIGHT_GREEN + 
                           "╚════════════════════════════════════════════════════════════════════════════════╝" + 
                           Colors.RESET + "\n");
-    }
+    // FEATURE 2: Display the total number of context switches
+    System.out.println("Total Context Switches: " + contextSwitchCount);}
     
     // Method to add a process to the queue and map, while printing a "ready" message
     public static void addProcessToQueue(Process process, Queue<Thread> processQueue, 

@@ -129,55 +129,55 @@
 
 ## Your Development Log
 
-### Entry 1 - [Date and Time]
-**What I did**:
+### Entry 1 - [4 -10-2026,afternoon]
+**What I did**:set up the project and added my student id
 
-**Details**:
+**Details**:i set up the project and did the first requirement i changed student id in the original file to my student id
 
-**Challenges**:
+**Challenges**:i had small problem with commit because it was new to me and it was my first time doing it
 
-**Solution**:
+**Solution**:i learned how to make a commit and then i did it successfully
 
-**Time spent**:
-
----
-
-### Entry 2 - [Date and Time]
-**What I did**:
-
-**Details**:
-
-**Challenges**:
-
-**Solution**:
-
-**Time spent**:
+**Time spent**:1 hour and 30 min
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**:
+### Entry 2 - [5-10=2026,evening]
+**What I did**:read and tried to understand the required featurs
 
-**Details**:
+**Details**:i spent a lot of time understanding features so i could implement them in the best way
 
-**Challenges**:
+**Challenges**:at first i didnt know how to add the features to the code
 
-**Solution**:
+**Solution**:i reviewed the requirements and the original code until i understood how to add the features 
 
-**Time spent**:
+**Time spent**:many hours
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**:
+### Entry 3 - [8-10-2026,night]
+**What I did**:i worked on feature 1 and 2
 
-**Details**:
+**Details**:i added a random priority for each process for feature1 and i added a counter to the count the context switches for feature2 
 
-**Challenges**:
+**Challenges**:i was not sure where to add the new code 
 
-**Solution**:
+**Solution**:i tried the code step by step until it worked corrictly
 
-**Time spent**:
+**Time spent**:about 2 hours 
+
+---
+
+### Entry 4 - [9-10-2026,evening]
+**What I did**:i worked on feature3
+
+**Details**:i added waiting time tracking and calculated the turnaround time for each process
+
+**Challenges**:feature 3 was harder for me because i had to understand how the waiting time is calculated
+
+**Solution**:i divided feature 3 into small parts and worked on each part separately
+
+**Time spent**:maybe 3 hours
 
 ---
 

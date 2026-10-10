@@ -181,16 +181,16 @@
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**:
+### Entry 5 - [10-10-2026,night]
+**What I did**:I worked on the documentation and tested the program
 
-**Details**:
+**Details**:I completed the reflection questions and worked on the technical questions
 
-**Challenges**:
+**Challenges**:Some technical questions needed more time to understand
 
-**Solution**:
+**Solution**:I took my time thinking about the answers and reviewed my code to remember how it works.
 
-**Time spent**:
+**Time spent**:3 hours
 
 ---
 
@@ -237,7 +237,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[i learned that multithreading has  functions like join() and sleep() and start() each function has a different use in the  program join() makes the thread wait for another thread to finish, sleep() makes the thread wait for a short time ,start() starts the thread]
 
 ## Question 2: What was the most challenging part of this assignment?
 
@@ -245,7 +245,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[feature3 was the most challenging part because it was very long i needed to divide it into parts to solve it it took me time to understand what i needed to do i tried many times until i understood then i know how feature 3 works ]
 
 ## Question 3: How did you overcome the challenges you faced?
 
@@ -253,7 +253,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[I review the requirements and try to understand them breaking down complex parts into smaller ones if the code doesn't work i try again and if i don't understand something i ask for help i take my time until i understand the problem ]
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
@@ -261,7 +261,7 @@
 
 **Your Answer:** *(5-7 sentences)*
 
-[Write your answer here.]
+[Multithreading can be useful in a game like Roblox there are many tasks happening while we play the game for example the character moves the game has sounds and we can chat with friends different threads can handle different tasks at the same time this can help the game run smoothly ]
 
 ### Optional: What would you like to learn more about?
 
@@ -293,7 +293,7 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[Process is an active program but thread is a part of a process also threads can shared memory but process has their own memory threads easier to create than process the process class in my code represents the simulated processes i used new Thread (process)to create a thread and run each process]
 
 ## Question 2: Ready Queue Behavior
 
@@ -305,7 +305,9 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[Write your answer here.]
+[In Round-Robin if the process does not finish it goes back to the ready queue In my output P5 has a burst time of 11208ms and the time quantum is 5000ms P5 went back to the ready queue2 times before it finished this  gives the other processes a chance to use the CPU
+example , completed quantum 5000ms Remaining time :6208ms
+P5 (priority :9) added to ready queue ]
 
 Example from my output:
 ```

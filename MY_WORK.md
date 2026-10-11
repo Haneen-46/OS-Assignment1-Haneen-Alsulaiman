@@ -39,7 +39,7 @@
 
 ## 🎥 Video Link
 
-**Video Link**: [Paste your video link here]
+**Video Link**: [https://drive.google.com/file/d/1Kvs28f24yMsxpExJ0qSA6tWY6xG7uRvG/view?usp=sharing]
 
 > ⚠️ **WARNING:** The video must be **publicly accessible** ("Anyone with the link can view") on **Google Drive**, **YouTube (Unlisted or Public)** or any other cloud file-sharing system. A private, restricted or broken link counts as a **missing video (-1 mark)**.
 >
@@ -151,7 +151,7 @@
 
 **Solution**:i reviewed the requirements and the original code until i understood how to add the features 
 
-**Time spent**:many hours
+**Time spent**:3 hours and 30 min
 
 ---
 
@@ -211,13 +211,13 @@
 
 > 💡 **TIP:** Fill this in **last**, after all entries are written.
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: [13 hours]
 
-**Most challenging part**:
+**Most challenging part**:feature 3 because it took me time to understand how the waiting time is calculated
 
-**Most interesting learning**:
+**Most interesting learning**:how round -robin scheduling works and how the processes share the cpu
 
-**What I would do differently next time**:
+**What I would do differently next time**:i would start earlier and organize my work better
 
 ---
 
@@ -305,17 +305,16 @@
 
 **Your Answer:** *(3-5 sentences)*
 
-[In Round-Robin if the process does not finish it goes back to the ready queue In my output P5 has a burst time of 11208ms and the time quantum is 5000ms P5 went back to the ready queue2 times before it finished this  gives the other processes a chance to use the CPU
-example , completed quantum 5000ms Remaining time :6208ms
-P5 (priority :9) added to ready queue ]
+[In Round-Robin if the process does not finish it goes back to the ready queue In my output P5 has a burst time of 11208ms and the time quantum is 5000ms P5 went back to the ready queue2 times before it finished this  gives the other processes a chance to use the CPU]
 
 Example from my output:
 ```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
+[P5 completed quantum 5000ms Remaining time :6208ms
+P5 (priority :9) added to ready queue]
 ```
 
 **Explanation of example:**
-[Explain what is happening in the output snippet you pasted.]
+[P5 did not finish after 5000ms  it was added back to the ready queue]
 
 ## Question 3: Thread Lifecycle
 
@@ -325,15 +324,16 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences overall; one short explanation per state)*
 
-1. **New**: [When is P1 in the New state?]
+1. **New**: [When p1`s thread is created]
 
-2. **Runnable**: [When does P1 become Runnable?]
+2. **Runnable**: [When start() is called for p1]
 
-3. **Running**: [When is P1 Running?]
+3. **Running**: [When P1 starts executing run()]
 
-4. **Waiting**: [When and why would a thread be Waiting?]
+4. **Waiting**: [The main thread waits using join() 
+,P1 sleeps using sleep()]
 
-5. **Terminated**: [When is P1 Terminated?]
+5. **Terminated**: [When p1 finishes run()]
 
 ## Question 4: Real-World Applications
 
@@ -343,32 +343,32 @@ Example from my output:
 
 **Your Answer:** *(3-5 sentences per example)*
 
-### Example 1 (operating-system level): [Name of scenario]
+### Example 1 (operating-system level): [cpu scheduling]
 
 **Description**:
-[Describe the real-world scenario.]
+[operating system has many programs running at the time the cpu gives each program a small amount of time to run then the cpu switches to another program]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[round -robin gives every program a chance to use the cpu this makes the scheduling fair and keeps the system responsive]
 
-### Example 2: [Name of application/scenario]
+### Example 2: [game]
 
 **Description**:
-[Describe the real-world scenario or application.]
+[game like Roblox has different tasks running such as player movement sound and chat these tasks need cpu time to run the cpu can switch between these tasks ]
 
 **Why Round-Robin works well here**:
-[Fairness, responsiveness, predictability?]
+[round -robin gives each tasks a chance to run this helps the game stay responsive while different tasks are running ]
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1.
-2.
-3.
+1.round-robin scheduling 
+2.thread lifecycle
+3.ready queue and context switching
 
 **Concepts I need to study more:**
-1.
-2.
+1.thread states 
+2.waiting time calculation
 
 ---
 
